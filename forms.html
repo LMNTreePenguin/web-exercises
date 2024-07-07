@@ -8,16 +8,16 @@
 <body>
     <form method="get" action="https://request-inspector.glitch.me/">
         <section class="user-info">
-            <label>
+            <label for="email">
                 Email:
             </label>
             <input type="text" name="email" placeholder="Email">
-            <label>
+            <label for="password">
                 Password:
             </label>
             <input type="text" name="password" placeholder="Password">
             <br>
-            <label>
+            <label for="bio">
                 Bio:
             </label>
             <textarea name="bio">
@@ -26,7 +26,7 @@
         </section>
 
         <section class="how-did-you-find-us">
-            <h2>How did you hear about us?</h2>
+            <p><strong>How did you hear about us?</strong></p>
             <label for="billboard">
                 <input id="billboard" type="radio" name="heard" value="billboard">Billboard
             </label><br>
@@ -48,6 +48,7 @@
                 <option>Edge</option>
                 <option>Firefox</option>
                 <option>Opera</option>
+                <option>Safari</option>
                 <option>Other</option>
             </select>
         </section>
