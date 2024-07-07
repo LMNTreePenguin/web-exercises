@@ -1,4 +1,63 @@
-.fancy-header {
-    color: purple;
+html {
+    background-image: linear-gradient(rgb(2, 7, 17), rgba(33, 16, 80, 0.459)), url("../img/pexels-felixmittermeier-956999.jpg");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: repeat-y;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:antiquewhite
+}
+
+main, header {
+    text-align:center;
+}
+
+img {
+    max-width:300px;
+}
+
+h1, h2 {
+    color: azure;
     text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    color:antiquewhite;
+}
+
+footer {
+    text-align: center;
+}
+
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #table tr, td{
+    padding: 1em;
+    font-size: 0.8em;
+  }
+
+  /* unvisited link (:link) */
+a:link {
+    color:rgb(167, 160, 160);
+}
+
+/* visited link (:visited) */
+a:visited {
+    color:rgb(196, 187, 187);
+}
+
+/* mouse hover over link (:hover) */
+a:hover {
+    color:rgb(159, 5, 173);
+}
+
+/* active/selected link (:active) */
+a:active {
+    color:rgb(0, 0, 0);
 }
