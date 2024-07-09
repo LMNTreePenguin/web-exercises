@@ -36,10 +36,13 @@ nav {
     padding: 0 .2em;
     font-family: Montserrat;
     margin: auto 0;
+    position: absolute;
+
 }
 
 .right {
     margin-left: auto;
+    
 }
 
 .nav-item a:hover {
