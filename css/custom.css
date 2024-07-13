@@ -1,0 +1,13 @@
+.jumbotron {
+    background-image: url("../img/pizza.png");
+    height: 346px;
+    background-size: cover;
+}
+
+.bg-light {
+    opacity: 50%;
+}
+
+.btn {
+    width: fit-content;
+}
